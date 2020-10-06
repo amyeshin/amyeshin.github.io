@@ -63,3 +63,7 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.cv-button {
+    font-weight: 600;
+}
