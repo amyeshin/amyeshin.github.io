@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46706147a2f37f844ea63b72dd50bce4",
+    "revision": "94602e0920cb83199a9a33bd244e0d23",
     "url": "/amyeshin.github.io/index.html"
   },
   {
-    "revision": "38ec4d9cc985c6fba207",
+    "revision": "f7481457f12b9745c596",
     "url": "/amyeshin.github.io/static/css/main.a32187ef.chunk.css"
   },
   {
-    "revision": "0a2c7cc053e7475d9832",
-    "url": "/amyeshin.github.io/static/js/2.29b4fab8.chunk.js"
+    "revision": "585c1176bd69f4b7fd31",
+    "url": "/amyeshin.github.io/static/js/2.d9757731.chunk.js"
   },
   {
     "revision": "348e18c767030a34e3e00df7559622cb",
-    "url": "/amyeshin.github.io/static/js/2.29b4fab8.chunk.js.LICENSE.txt"
+    "url": "/amyeshin.github.io/static/js/2.d9757731.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38ec4d9cc985c6fba207",
-    "url": "/amyeshin.github.io/static/js/main.3fabc57d.chunk.js"
+    "revision": "f7481457f12b9745c596",
+    "url": "/amyeshin.github.io/static/js/main.297f2fba.chunk.js"
   },
   {
     "revision": "d514974e3e5ac9969f08",
