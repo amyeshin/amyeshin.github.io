@@ -32,7 +32,7 @@ img {
     margin: 0px 24px;
 }
 
-.project-container {
+.resume-container {
     padding: 0px 24px;
     position: relative;
 }
@@ -46,7 +46,7 @@ img {
     border-radius: 8px;
     background-color: #efebe9;
     width: 350px;
-    height: 200px;
+    height: auto;
     box-shadow: 5px 5px #bcaaa4;
 }
 
@@ -62,8 +62,4 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.cv-button {
-    font-weight: 600;
 }
