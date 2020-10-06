@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import './App.css';
 import TabGuard from './TabGuard.png';
+import RatingPredictor from './rating_predictor.gif';
 
 function Projects(){
     return(
@@ -14,9 +15,16 @@ function Projects(){
                             <li>Spearheaded the frontend for a single-page
                             application to help students manage their college
                             application process</li>
-                            <li>Designed wireframes with Figma and built those
-                            pages in the frontend with backend integration
-                            and routing</li>
+                            <li>Designed
+                                <a
+                                    href="https://www.figma.com/file/gqXwORcingsf1C9KH4wunN/C4ME?node-id=77%3A432"
+                                    target="_blank"
+                                >
+                                     wireframes
+                                </a>
+                                with Figma and built those
+                                pages in the frontend with backend integration
+                                and routing</li>
                             <li>Rendered an interactive scatter plot that
                             represents test score data of students who applied
                             to a selected college and their admission
@@ -48,7 +56,7 @@ function Projects(){
                         </ul>
                     </div>
                     <div className="project-img-wrapper">
-                        <img className="tabguard-size" src={TabGuard} alt="" />
+                        <img className="predictor-size" src={RatingPredictor} alt="" />
                     </div>
                 </div>
             </div>
