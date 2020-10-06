@@ -11,6 +11,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme.js';
 import SkillTable from './table.js';
 import Projects from './projects.js';
+import Blog from './blog.js';
 
 function App() {
   return (
@@ -55,6 +56,10 @@ function App() {
                 </div>
             </div>
 
+            <div className="resume-container">
+                <h1> Blog </h1>
+
+            </div>
             <div className="center-container">
                 <div id="contact" className="icon-container">
                     <IconButton onClick={() => window.open('https://www.Linkedin.com/in/amyeshin/')}>
