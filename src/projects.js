@@ -1,8 +1,9 @@
 import React from 'react';
 import './projects.css';
 import './App.css';
-import TabGuard from './TabGuard.png';
-import RatingPredictor from './rating_predictor.gif';
+import TabGuard from './images/TabGuard.png';
+import RatingPredictor from './images/rating_predictor.gif';
+import C4ME from './images/c4me.png';
 
 function Projects(){
     return(
@@ -34,7 +35,7 @@ function Projects(){
                         </ul>
                     </div>
                     <div className="project-img-wrapper">
-                        <img className="tabguard-size" src={TabGuard} alt="" />
+                        <img className="c4me-size" src={C4ME} alt="" />
                     </div>
                 </div>
             </div>

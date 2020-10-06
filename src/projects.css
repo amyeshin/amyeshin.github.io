@@ -21,7 +21,12 @@
     height: 250px;
 }
 
-.predictor-size{
+.predictor-size {
+    width: 450px;
+    height: 200px;
+}
+
+.c4me-size {
     width: 450px;
     height: 200px;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 import './App.css';
-import Me from './personal_photo.png';
+import Me from './images/personal_photo.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Button, IconButton, Container } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
