@@ -24,7 +24,6 @@ function App() {
                     <Button href="#projects">Projects</Button>
                     <Button href="#skills">Skills</Button>
                     <Button>Blog</Button>
-                    <Button href="#contact">Contact</Button>
                 </div>
             </Navbar>
 
@@ -40,9 +39,11 @@ function App() {
                 </div>
             </div>
 
-            <div id="projects" className="resume-container">
-                <h1> Projects </h1>
-                <Projects/>
+            <div className="resume-container">
+                <div id="projects">
+                    <h1> Projects </h1>
+                    <Projects/>
+                </div>
                 <div id="skills">
                     <h1> Skills </h1>
                     <SkillTable/>
@@ -62,7 +63,7 @@ function App() {
                     <IconButton onClick={() => window.open('https://github.com/amyeshin')}>
                         <GitHubIcon/>
                     </IconButton>
-                    <IconButton onClick={() => window.open('https://www.Linkedin.com/in/amyeshin/')}>
+                    <IconButton onClick={() => window.open('https://amyeshin.wixsite.com/blog')}>
                         <WebAssetIcon/>
                     </IconButton>
                 </div>
