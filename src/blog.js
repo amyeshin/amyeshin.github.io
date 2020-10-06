@@ -3,7 +3,6 @@ import './projects.css';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -31,7 +30,6 @@ function Blog() {
         </div>
         <div className="project-img-wrapper">
               <Card className={classes.root}>
-                <CardActionArea>
                   <CardMedia>
                     <img src={Bread} alt="Focaccia Bread"/>
                   </CardMedia>
@@ -40,7 +38,6 @@ function Blog() {
                       Hopping on the Bread Baking Train
                     </Typography>
                   </CardContent>
-                </CardActionArea>
                 <CardActions>
                   <Button size="small" color="primary" onClick={() => window.open('https://amyeshin.wixsite.com/blog/post/hopping-on-the-bread-baking-train')}>
                     Learn More
