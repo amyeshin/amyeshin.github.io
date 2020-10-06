@@ -26,7 +26,8 @@ function Blog() {
         <div className="info-container">
         <div className="bullet-wrapper">
           <p> If you're wondering what I have been up to during quarantine,
-              check out my blog. Here's one of my most recent posts!</p>
+              check out my blog. Here's one of my most recent posts on my
+              experience tackling bread baking!</p>
         </div>
         <div className="project-img-wrapper">
               <Card className={classes.root}>
@@ -39,7 +40,7 @@ function Blog() {
                     </Typography>
                   </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary" onClick={() => window.open('https://amyeshin.wixsite.com/blog/post/hopping-on-the-bread-baking-train')}>
+                  <Button size="small" onClick={() => window.open('https://amyeshin.wixsite.com/blog/post/hopping-on-the-bread-baking-train')}>
                     Learn More
                   </Button>
                 </CardActions>
