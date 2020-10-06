@@ -13,6 +13,12 @@ const useStyles = makeStyles({
   table: {
     minWidth: 650,
   },
+  table_container: {
+    borderRadius: 8,
+    background: '#efebe9',
+    color: '#3e2723',
+    boxShadow: '5px 5px #d7ccc8',
+  }
 });
 
 function createData(name, novice, proficient, expert) {
@@ -33,7 +39,7 @@ function SkillTable() {
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} className={classes.table_container}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
