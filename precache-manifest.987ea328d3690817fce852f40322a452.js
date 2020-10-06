@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf30781e10625fa5226ed3b3d272f95f",
+    "revision": "a8664662f7a4becebb6c5fe04f364899",
     "url": "/amyeshin.github.io/index.html"
   },
   {
