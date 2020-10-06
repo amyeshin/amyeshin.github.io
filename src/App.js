@@ -3,13 +3,14 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import './App.css';
 import Me from './personal_photo.png';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Button, IconButton, Grid } from '@material-ui/core';
+import { Button, IconButton, Container } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme.js';
 import SkillTable from './table.js';
+import Projects from './projects.js';
 
 function App() {
   return (
@@ -41,13 +42,14 @@ function App() {
 
             <div id="projects" className="resume-container">
                 <h1> Projects </h1>
-                <h1> Skills </h1>
-                <div>
+                <Projects/>
+                <div id="skills">
+                    <h1> Skills </h1>
                     <SkillTable/>
                 </div>
                 <div className="center-container">
                     <Link to="/files/Amy Shin Resume.pdf" target="_blank" download>
-                        <Button>Download CV</Button>
+                        <Button variant="contained">Download CV</Button>
                     </Link>
                 </div>
             </div>

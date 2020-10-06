@@ -18,6 +18,7 @@ const useStyles = makeStyles({
     background: '#efebe9',
     color: '#3e2723',
     boxShadow: '5px 5px #d7ccc8',
+    marginBottom: '24px',
   }
 });
 
