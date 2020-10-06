@@ -24,7 +24,7 @@ function App() {
                     <Button href="#about-me">About Me</Button>
                     <Button href="#projects">Projects</Button>
                     <Button href="#skills">Skills</Button>
-                    <Button>Blog</Button>
+                    <Button href="#blog">Blog</Button>
                 </div>
             </Navbar>
 
@@ -56,9 +56,9 @@ function App() {
                 </div>
             </div>
 
-            <div className="resume-container">
+            <div id="blog" className="resume-container">
                 <h1> Blog </h1>
-
+                <Blog/>
             </div>
             <div className="center-container">
                 <div id="contact" className="icon-container">

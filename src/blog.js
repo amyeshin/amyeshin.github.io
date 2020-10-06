@@ -1,11 +1,57 @@
 import React from 'react';
+import './projects.css';
+import './App.css';
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import Bread from './images/bread.jpg';
 
-function Blog(){
-    return(
-        <div>
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 400,
+    maxHeight: 500,
+    borderRadius:8,
+  },
+});
 
+function Blog() {
+  const classes = useStyles();
+
+  return (
+      <div className="project-container">
+        <div className="info-container">
+        <div className="bullet-wrapper">
+          <p> If you're wondering what I have been up to during quarantine,
+              check out my blog. Here's one of my most recent posts!</p>
         </div>
-    )
+        <div className="project-img-wrapper">
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia>
+                    <img src={Bread} alt="Focaccia Bread"/>
+                  </CardMedia>
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Hopping on the Bread Baking Train
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions>
+                  <Button size="small" color="primary" onClick={() => window.open('https://amyeshin.wixsite.com/blog/post/hopping-on-the-bread-baking-train')}>
+                    Learn More
+                  </Button>
+                </CardActions>
+              </Card>
+        </div>
+        </div>
+      </div>
+
+  );
 }
 
 export default Blog;
