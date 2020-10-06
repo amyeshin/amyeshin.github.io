@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Link } from 'react-router-dom';
 import './App.css';
 import Me from './personal_photo.png';
 import { Navbar, Nav } from 'react-bootstrap';
@@ -9,17 +10,19 @@ import WebAssetIcon from '@material-ui/icons/WebAsset';
 
 function App() {
   return (
+      <BrowserRouter>
     <div>
         <Navbar bg="light" variant="light" className="header-bar">
-            <h2>Amy Shin</h2>
+            <h1>Amy Shin</h1>
             <div className="links">
-                <Button>About Me</Button>
-                <Button>Projects</Button>
+                <Button href="#about-me">About Me</Button>
+                <Button href="#projects">Projects</Button>
                 <Button>Blog</Button>
-                <Button>Contact</Button>
+                <Button href="#contact">Contact</Button>
             </div>
         </Navbar>
-        <div className="info-container">
+
+        <div id="about-me" className="info-container">
             <div className="text-wrapper">
                 <h1> Hello </h1>
                 I recently graduated from Stony Brook
@@ -30,20 +33,30 @@ function App() {
                 <img className="img-size" src={Me} alt=""/>
             </div>
         </div>
-        <div className="center-container">
-        <div className="icon-container">
-            <IconButton onClick={() => window.open('https://www.Linkedin.com/in/amyeshin/')}>
-                <LinkedInIcon/>
-            </IconButton>
-            <IconButton onClick={() => window.open('https://github.com/amyeshin')}>
-                <GitHubIcon/>
-            </IconButton>
-            <IconButton onClick={() => window.open('https://www.Linkedin.com/in/amyeshin/')}>
-                <WebAssetIcon/>
-            </IconButton>
+
+        <div id="projects" className="project-container">
+            <h1> Projects </h1>
+            <h1> Skills </h1>
+            <Link to="/files/Amy Shin Resume.pdf" target="_blank" download>
+                <Button>Download CV</Button>
+            </Link>
         </div>
+
+        <div className="center-container">
+            <div id="contact" className="icon-container">
+                <IconButton onClick={() => window.open('https://www.Linkedin.com/in/amyeshin/')}>
+                    <LinkedInIcon/>
+                </IconButton>
+                <IconButton onClick={() => window.open('https://github.com/amyeshin')}>
+                    <GitHubIcon/>
+                </IconButton>
+                <IconButton onClick={() => window.open('https://www.Linkedin.com/in/amyeshin/')}>
+                    <WebAssetIcon/>
+                </IconButton>
+            </div>
         </div>
     </div>
+    </BrowserRouter>
   );
 }
 
