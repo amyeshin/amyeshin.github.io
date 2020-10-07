@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amyeshin.github.io/static/css/main.13df6aab.chunk.css",
+    "main.css": "/amyeshin.github.io/static/css/main.82175b59.chunk.css",
     "main.js": "/amyeshin.github.io/static/js/main.b2b2a249.chunk.js",
     "main.js.map": "/amyeshin.github.io/static/js/main.b2b2a249.chunk.js.map",
     "runtime-main.js": "/amyeshin.github.io/static/js/runtime-main.4198504b.js",
@@ -8,9 +8,9 @@
     "static/js/2.177a008c.chunk.js": "/amyeshin.github.io/static/js/2.177a008c.chunk.js",
     "static/js/2.177a008c.chunk.js.map": "/amyeshin.github.io/static/js/2.177a008c.chunk.js.map",
     "index.html": "/amyeshin.github.io/index.html",
-    "precache-manifest.919c27b035bf400140398e6d18abbf84.js": "/amyeshin.github.io/precache-manifest.919c27b035bf400140398e6d18abbf84.js",
+    "precache-manifest.58aca0a91c0426616ead82be554406f9.js": "/amyeshin.github.io/precache-manifest.58aca0a91c0426616ead82be554406f9.js",
     "service-worker.js": "/amyeshin.github.io/service-worker.js",
-    "static/css/main.13df6aab.chunk.css.map": "/amyeshin.github.io/static/css/main.13df6aab.chunk.css.map",
+    "static/css/main.82175b59.chunk.css.map": "/amyeshin.github.io/static/css/main.82175b59.chunk.css.map",
     "static/js/2.177a008c.chunk.js.LICENSE.txt": "/amyeshin.github.io/static/js/2.177a008c.chunk.js.LICENSE.txt",
     "static/media/TabGuard.png": "/amyeshin.github.io/static/media/TabGuard.eef925ee.png",
     "static/media/bread.jpg": "/amyeshin.github.io/static/media/bread.8becc027.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.4198504b.js",
     "static/js/2.177a008c.chunk.js",
-    "static/css/main.13df6aab.chunk.css",
+    "static/css/main.82175b59.chunk.css",
     "static/js/main.b2b2a249.chunk.js"
   ]
 }
