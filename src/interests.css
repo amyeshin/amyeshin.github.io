@@ -5,6 +5,12 @@ iframe.border {
     min-height: 280px;
 }
 
+@media screen and (max-width: 450px) {
+    iframe {
+        max-width: 100%;
+    }
+}
+
 .interests-container {
     position: relative;
     display: flex;
@@ -28,10 +34,11 @@ iframe.border {
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 785px) {
     .interests-wrapper {
         flex-direction: column;
         flex: 100%;
         margin-bottom: 24px;
+        margin-right: 0px;
     }
 }
