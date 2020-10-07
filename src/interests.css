@@ -1,12 +1,15 @@
 iframe.border {
     border-radius: 8px;
     overflow: hidden;
+    min-width: 200px;
+    min-height: 280px;
 }
 
 .interests-container {
     position: relative;
     display: flex;
     margin-bottom: 24px;
+
 }
 
 .interests-wrapper {
