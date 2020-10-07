@@ -28,7 +28,7 @@ iframe.border {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
     .interests-wrapper {
         flex-direction: column;
         flex: 100%;

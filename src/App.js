@@ -20,7 +20,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <div>
             <Navbar className="header-bar">
-                <h1>Amy Shin</h1>
+                <Navbar.Brand> Amy Shin </Navbar.Brand>
                 <div className="links">
                     <Button href="#about-me">About Me</Button>
                     <Button href="#projects">Projects</Button>
@@ -30,15 +30,15 @@ function App() {
             </Navbar>
 
             <div id="about-me" className="info-container">
-                <div className="text-wrapper">
-                    <h1> Hello </h1>
-                    I am an aspiring software engineer currently seeking a full
-                    time position in NYC. I recently graduated from Stony Brook
-                    University with a B.S. in Computer Science. My most recent
-                    project is this personal website. I hope you enjoy!
-                </div>
                 <div className="img-wrapper">
                     <img className="img-size" src={Me} alt=""/>
+                </div>
+                <div className="text-wrapper">
+                    <h1> Hello </h1>
+                    <p> I am an aspiring software engineer currently seeking a full
+                    time position in NYC. I recently graduated from Stony Brook
+                    University with a B.S. in Computer Science. My most recent
+                    project is this personal website. I hope you enjoy! </p>
                 </div>
             </div>
 
