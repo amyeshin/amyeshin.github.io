@@ -12,13 +12,14 @@ import theme from './theme.js';
 import SkillTable from './table.js';
 import Projects from './projects.js';
 import Blog from './blog.js';
+import Interests from './interests.js';
 
 function App() {
   return (
       <BrowserRouter>
       <ThemeProvider theme={theme}>
         <div>
-            <Navbar bg="light" variant="light" className="header-bar">
+            <Navbar className="header-bar">
                 <h1>Amy Shin</h1>
                 <div className="links">
                     <Button href="#about-me">About Me</Button>
@@ -31,13 +32,19 @@ function App() {
             <div id="about-me" className="info-container">
                 <div className="text-wrapper">
                     <h1> Hello </h1>
-                    I recently graduated from Stony Brook University with a B.S. in Computer Science.
-                    Currently, I am seeking a full time software engineering position in NYC.
-                    My interests include hiking, baking focaccia bread, and my dog Johnny.
+                    I am an aspiring software engineer currently seeking a full
+                    time position in NYC. I recently graduated from Stony Brook
+                    University with a B.S. in Computer Science. My most recent
+                    project is this personal website. I hope you enjoy!
                 </div>
                 <div className="img-wrapper">
                     <img className="img-size" src={Me} alt=""/>
                 </div>
+            </div>
+
+            <div id="interests">
+                <h1> Interests </h1>
+                <Interests/>
             </div>
 
             <div className="resume-container">
@@ -60,6 +67,7 @@ function App() {
                 <h1> Blog </h1>
                 <Blog/>
             </div>
+
             <div className="center-container">
                 <div id="contact" className="icon-container">
                     <IconButton onClick={() => window.open('https://www.Linkedin.com/in/amyeshin/')}>

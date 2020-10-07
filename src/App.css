@@ -1,11 +1,9 @@
 .header-bar {
     display: flex;
-    padding: 0px 24px;
+    background-color: #bcaaa4;
 }
 
 .links {
-    padding-right: 24px;
-    padding-top: 16px;
     position: absolute;
     right: 0;
 }
@@ -20,6 +18,7 @@ img {
 .info-container {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .img-size {
@@ -29,18 +28,17 @@ img {
 
 .img-wrapper {
     right: 0;
-    margin: 0px 24px;
+    margin-bottom:24px;
 }
 
 .resume-container {
-    padding: 0px 24px;
     position: relative;
 }
 
 .text-wrapper {
     position: absolute;
     left: 0;
-    margin: 24px 48px;
+    margin: 24px;
     padding: 24px;
     z-index: 10;
     border-radius: 8px;
