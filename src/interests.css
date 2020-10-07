@@ -9,7 +9,7 @@ iframe.border {
     position: relative;
     display: flex;
     margin-bottom: 24px;
-
+    flex-wrap: wrap;
 }
 
 .interests-wrapper {
@@ -18,5 +18,20 @@ iframe.border {
     border-radius: 8px;
     padding: 24px;
     margin-right: 24px;
-    width: 25%;
+    flex: 22%;
+}
+
+@media screen and (max-width: 1370px) {
+    .interests-wrapper {
+        flex: 45%;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .interests-wrapper {
+        flex-direction: column;
+        flex: 100%;
+        margin-bottom: 24px;
+    }
 }
