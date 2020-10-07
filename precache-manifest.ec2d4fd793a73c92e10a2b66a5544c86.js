@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0723c700f62ff531831014d6b26c5b1c",
+    "revision": "b2ec5d131c17b6af38a2eeeebba7e875",
     "url": "/amyeshin.github.io/index.html"
   },
   {
-    "revision": "9c97ef28989d684966ed",
-    "url": "/amyeshin.github.io/static/css/main.e105d939.chunk.css"
+    "revision": "da809914298459175604",
+    "url": "/amyeshin.github.io/static/css/main.16346f23.chunk.css"
   },
   {
     "revision": "6c3d66b9a4d183357208",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amyeshin.github.io/static/js/2.177a008c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c97ef28989d684966ed",
+    "revision": "da809914298459175604",
     "url": "/amyeshin.github.io/static/js/main.6480339d.chunk.js"
   },
   {
