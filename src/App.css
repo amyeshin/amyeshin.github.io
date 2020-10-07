@@ -1,12 +1,18 @@
 .header-bar {
     display: flex;
     background-color: #bcaaa4;
-    flex-wrap: wrap;
+    padding: 0px 0px 0px 8px;
 }
 
 .links {
     position: absolute;
     right: 0;
+}
+
+@media screen and (max-width: 460px) {
+    .links {
+        position: relative;
+    }
 }
 
 img {
@@ -62,6 +68,7 @@ img {
         flex-direction: column;
     }
 }
+
 .icon-container {
     padding: 24px 128px;
     position: relative;
