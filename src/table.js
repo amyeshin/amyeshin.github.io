@@ -47,9 +47,9 @@ function SkillTable() {
         <TableHead>
           <TableRow>
             <TableCell></TableCell>
-            <TableCell align="right"  className={classes.tableCell}>Novice</TableCell>
-            <TableCell align="right"  className={classes.tableCell}>Proficient</TableCell>
-            <TableCell align="right"  className={classes.tableCell}>Expert</TableCell>
+            <TableCell align="center"  className={classes.tableCell}>Novice</TableCell>
+            <TableCell align="center"  className={classes.tableCell}>Proficient</TableCell>
+            <TableCell align="center"  className={classes.tableCell}>Expert</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -58,9 +58,9 @@ function SkillTable() {
               <TableCell component="th" scope="row"  className={classes.tableCell}>
                 {row.name}
               </TableCell>
-              <TableCell align="right"  className={classes.tableCell}>{row.novice}</TableCell>
-              <TableCell align="right"  className={classes.tableCell}>{row.proficient}</TableCell>
-              <TableCell align="right"  className={classes.tableCell}>{row.expert}</TableCell>
+              <TableCell align="center"  className={classes.tableCell}>{row.novice}</TableCell>
+              <TableCell align="center"  className={classes.tableCell}>{row.proficient}</TableCell>
+              <TableCell align="center"  className={classes.tableCell}>{row.expert}</TableCell>
             </TableRow>
           ))}
         </TableBody>

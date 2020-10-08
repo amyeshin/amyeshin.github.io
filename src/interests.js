@@ -44,7 +44,7 @@ function Interests() {
                     cuisines include Japanese and Italian. These are
                     my favorite creations from the past few months. </p>
                     <Carousel>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           className="d-block w-100"
                           src={KimCarb}
@@ -54,7 +54,7 @@ function Interests() {
                           <h4>Kimchi Carbonara</h4>
                         </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -66,7 +66,7 @@ function Interests() {
                           <h4>Korean Sausage Bread</h4>
                         </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           className="d-block w-100"
                           src={OyakoDon}
@@ -89,7 +89,7 @@ function Interests() {
                     foggy and rained almost every day.
                     My next challenge will be the Devil's Path at Catskills Mountains.</p>
                     <Carousel>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -101,7 +101,7 @@ function Interests() {
                           <h4>Jordan Pond</h4>
                         </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -114,7 +114,7 @@ function Interests() {
                         </Carousel.Caption>
 
                         </Carousel.Item>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -138,21 +138,21 @@ function Interests() {
                     until you give him some pets. And yes, I am that dog owner
                     that takes multiple of the same photo of her dog.</p>
                     <Carousel>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           className="d-block w-100"
                           src={Johnny1}
                           alt="First slide"
                         />
                         </Carousel.Item>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           className="d-block w-100"
                           src={Johnny2}
                           alt="Second slide"
                         />
                         </Carousel.Item>
-                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
+                        <Carousel.Item className="carousel-size">
                         <img
                           className="d-block w-100"
                           src={Johnny3}
