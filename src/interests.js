@@ -14,7 +14,6 @@ import Johnny2 from './images/johnny2.jpg';
 import Johnny3 from './images/johnny3.jpg';
 
 
-
 function Interests() {
     return (
         <div className="interests-container">
@@ -45,9 +44,8 @@ function Interests() {
                     cuisines include Japanese and Italian. These are
                     my favorite creations from the past few months. </p>
                     <Carousel>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
-                          style={{'height':"400px"}}
                           className="d-block w-100"
                           src={KimCarb}
                           alt="First slide"
@@ -56,7 +54,7 @@ function Interests() {
                           <h4>Kimchi Carbonara</h4>
                         </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -68,9 +66,8 @@ function Interests() {
                           <h4>Korean Sausage Bread</h4>
                         </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
-                          style={{'height':"400px"}}
                           className="d-block w-100"
                           src={OyakoDon}
                           alt="Third slide"
@@ -89,21 +86,10 @@ function Interests() {
                     <p>You'll either find me on the road looking for my next summit
                     or at Cold Spring Harbor Park jogging up and down the rocky terrain.
                     I recently went to Acadia National Park; however, it was quite
-                    foggy and rained almost every day. 
+                    foggy and rained almost every day.
                     My next challenge will be the Devil's Path at Catskills Mountains.</p>
                     <Carousel>
-                        <Carousel.Item style={{'height':"400px"}}>
-                        <img
-                          style={{'height':"400px"}}
-                          className="d-block w-100"
-                          src={Gorham}
-                          alt="First slide"
-                        />
-                        <Carousel.Caption>
-                          <h4>Gorham Mountain</h4>
-                        </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -115,7 +101,7 @@ function Interests() {
                           <h4>Jordan Pond</h4>
                         </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -128,7 +114,7 @@ function Interests() {
                         </Carousel.Caption>
 
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
                           style={{'height':"400px"}}
                           className="d-block w-100"
@@ -152,25 +138,22 @@ function Interests() {
                     until you give him some pets. And yes, I am that dog owner
                     that takes multiple of the same photo of her dog.</p>
                     <Carousel>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
-                          style={{'height':"400px"}}
                           className="d-block w-100"
                           src={Johnny1}
                           alt="First slide"
                         />
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
-                          style={{'height':"400px"}}
                           className="d-block w-100"
                           src={Johnny2}
                           alt="Second slide"
                         />
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"400px"}}>
+                        <Carousel.Item style={{'width': "300px",'height':"400px"}}>
                         <img
-                          style={{'height':"400px"}}
                           className="d-block w-100"
                           src={Johnny3}
                           alt="Third slide"
