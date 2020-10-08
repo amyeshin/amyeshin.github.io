@@ -9,14 +9,14 @@ function Projects(){
     return(
         <div>
             <div className="project-container">
-                <h3>C4ME</h3>
+                <h3>CollegeD</h3>
                 <div className="info-container">
                     <div className="bullet-wrapper">
                         <ul>
                             <li>Spearheaded the frontend for a single-page
                             application to help students manage their college
                             application process</li>
-                            <li>Designed
+                            <li>Designed user-friendly
                                 <a
                                     href="https://www.figma.com/file/gqXwORcingsf1C9KH4wunN/C4ME?node-id=77%3A432"
                                     target="_blank"
