@@ -16,10 +16,12 @@ const useStyles = makeStyles({
   table_container: {
     borderRadius: 8,
     background: '#efebe9',
-    color: '#3e2723',
     boxShadow: '5px 5px #d7ccc8',
     marginBottom: '24px',
-  }
+    },
+    tableCell: {
+        color: '#3e2723',
+    }
 });
 
 function createData(name, novice, proficient, expert) {
@@ -45,20 +47,20 @@ function SkillTable() {
         <TableHead>
           <TableRow>
             <TableCell></TableCell>
-            <TableCell align="right">Novice</TableCell>
-            <TableCell align="right">Proficient</TableCell>
-            <TableCell align="right">Expert</TableCell>
+            <TableCell align="right"  className={classes.tableCell}>Novice</TableCell>
+            <TableCell align="right"  className={classes.tableCell}>Proficient</TableCell>
+            <TableCell align="right"  className={classes.tableCell}>Expert</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.name}>
-              <TableCell component="th" scope="row">
+              <TableCell component="th" scope="row"  className={classes.tableCell}>
                 {row.name}
               </TableCell>
-              <TableCell align="right">{row.novice}</TableCell>
-              <TableCell align="right">{row.proficient}</TableCell>
-              <TableCell align="right">{row.expert}</TableCell>
+              <TableCell align="right"  className={classes.tableCell}>{row.novice}</TableCell>
+              <TableCell align="right"  className={classes.tableCell}>{row.proficient}</TableCell>
+              <TableCell align="right"  className={classes.tableCell}>{row.expert}</TableCell>
             </TableRow>
           ))}
         </TableBody>

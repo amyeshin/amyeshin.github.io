@@ -34,6 +34,10 @@ img {
     border-radius: 8px;
 }
 
+span, h1{
+    color: #3e2723;
+}
+
 h4 {
     font-weight: 700;
     text-shadow: 0 1px 0 black;

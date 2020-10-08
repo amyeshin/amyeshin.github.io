@@ -20,7 +20,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <div>
             <Navbar className="header-bar">
-                <Navbar.Brand> Amy Shin </Navbar.Brand>
+                <Navbar.Brand> <h1>Amy Shin </h1></Navbar.Brand>
                 <div className="links">
                     <Button href="#about-me">About Me</Button>
                     <Button href="#projects">Projects</Button>
