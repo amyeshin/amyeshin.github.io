@@ -29,17 +29,18 @@ function App() {
                 </div>
             </Navbar>
 
-            <div id="about-me" className="info-container">
-                <div className="img-wrapper">
-                    <img className="img-size" src={Me} alt=""/>
-                </div>
+            <div id="about-me" className="container">
                 <div className="text-wrapper">
-                    <h1> Hello </h1>
+                    <h1> Hey, I'm Amy </h1>
                     <p> I am an aspiring software engineer currently seeking a full
                     time position in NYC. I recently graduated from Stony Brook
                     University with a B.S. in Computer Science. My most recent
                     project is this personal website. I hope you enjoy! </p>
                 </div>
+                <div className="img-wrapper">
+                    <img className="img-size" src={Me} alt=""/>
+                </div>
+
             </div>
 
             <div id="interests">

@@ -8,10 +8,9 @@ import C4ME from './images/c4me.png';
 function Projects(){
     return(
         <div>
-            <div className="project-container">
-                <h3>CollegeD</h3>
-                <div className="info-container">
+            <div className="container">
                     <div className="bullet-wrapper">
+                    <h3>CollegeD</h3>
                         <ul>
                             <li>Spearheaded the frontend for a single-page
                             application to help students manage their college
@@ -37,13 +36,12 @@ function Projects(){
                     <div className="project-img-wrapper">
                         <img className="c4me-size" src={C4ME} alt="" />
                     </div>
-                </div>
             </div>
 
-            <div className="project-container">
-                <h3>Rating Predictor</h3>
-                <div className="info-container">
+            <div className="container">
                     <div className="bullet-wrapper">
+                    <h3>Rating Predictor</h3>
+
                         <ul>
                             <li>Implemented a sentiment analysis system with word
                             to vector embeddings to predict ratings given product
@@ -59,12 +57,11 @@ function Projects(){
                     <div className="project-img-wrapper">
                         <img className="predictor-size" src={RatingPredictor} alt="" />
                     </div>
-                </div>
             </div>
-            <div className="project-container">
-                <h3>TabGuard</h3>
-                <div className="info-container">
+            <div className="container">
                     <div className="bullet-wrapper">
+                    <h3>TabGuard</h3>
+
                         <ul>
                             <li>Developed a Chrome extension that alerts users of malicious
                             activity, tabnabbing, by using image comparison and allows
@@ -79,7 +76,6 @@ function Projects(){
                     <div className="project-img-wrapper">
                         <img className="tabguard-size" src={TabGuard} alt="" />
                     </div>
-                </div>
             </div>
         </div>
     )

@@ -15,8 +15,10 @@ const useStyles = makeStyles({
   },
   table_container: {
     borderRadius: 8,
-    background: '#feefec',
+    // background: '#feefec',
     // boxShadow: '5px 5px #d7ccc8',
+    boxShadow: '0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2)',
+
     marginBottom: '24px',
     },
     // tableCell: {

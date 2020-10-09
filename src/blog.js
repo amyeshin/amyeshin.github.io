@@ -22,8 +22,7 @@ function Blog() {
   const classes = useStyles();
 
   return (
-      <div className="project-container">
-        <div className="info-container">
+      <div className="container">
         <div className="bullet-wrapper">
           <p> If you're wondering what I have been up to during quarantine,
               check out my blog. Here's one of my most recent posts on my
@@ -45,7 +44,6 @@ function Blog() {
                   </Button>
                 </CardActions>
               </Card>
-        </div>
         </div>
       </div>
 
