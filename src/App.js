@@ -22,7 +22,7 @@ function App() {
             <Navbar className="header-bar">
                 <Navbar.Brand> <h1>Amy Shin </h1></Navbar.Brand>
                 <div className="links">
-                    <Button href="#about-me">About Me</Button>
+                    <Button href="#about-me">About</Button>
                     <Button href="#projects">Projects</Button>
                     <Button href="#skills">Skills</Button>
                     <Button href="#blog">Blog</Button>

@@ -44,7 +44,7 @@ function Projects(){
 
             <div className="project-container">
                     <div className="container left">
-                    <h3>Rating Predictor</h3>
+                        <h3>Rating Predictor</h3>
 
                         <ul>
                             <li>Implemented a sentiment analysis system with word

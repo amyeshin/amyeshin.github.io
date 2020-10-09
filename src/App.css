@@ -20,12 +20,12 @@
     border-radius: 6px;
     padding: 24px;
     margin-bottom: 24px;
-
 }
 
 .img-underlay.hero {
     height: 300px;
 }
+
 .img-wrapper {
     right: 0;
     z-index: 1;

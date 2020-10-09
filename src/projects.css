@@ -2,14 +2,18 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
-
 }
+
 .container.left {
     flex:1;
     left:0;
     margin-right: 24px;
+    display: block;
 }
 
+.project-container.center {
+    align-items:center;
+}
 .project-img-wrapper {
     display: flex;
     align-items: center;
