@@ -36,7 +36,7 @@ function Interests() {
                     />
                     </div>
             </div>
-            <div className="interests-wrapper right">
+            <div className="interests-wrapper right2">
                 <h3> Cooking </h3>
                     <p> At least once a week I attempt a new recipe either from
                     my own imagination or found through social media. My go-to

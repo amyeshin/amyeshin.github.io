@@ -19,7 +19,7 @@ function App() {
       <BrowserRouter>
       <ThemeProvider theme={theme}>
         <div>
-            <Navbar className="header-bar">
+            <Navbar fixed="top" className="header-bar">
                 <Navbar.Brand> <h1>Amy Shin </h1></Navbar.Brand>
                 <div className="links">
                     <Button href="#about-me">About</Button>
@@ -36,16 +36,17 @@ function App() {
                     time position in NYC. I recently graduated from Stony Brook
                     University with a B.S. in Computer Science. </p>
                 </div>
+                <div className="hero-img-wrapper">
                 <div className="img-underlay hero">
                     <div className="img-wrapper">
                         <img src={Me} alt=""/>
                     </div>
                 </div>
-
+                </div>
             </div>
 
             <div id="interests">
-                <h1> Interests </h1>
+                <h1 > Interests </h1>
                 <Interests/>
             </div>
 
