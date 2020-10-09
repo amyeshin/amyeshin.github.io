@@ -1,6 +1,7 @@
 .header-bar {
     display: flex;
     padding: 0px 0px 0px 8px;
+    margin-bottom: 50px;
 }
 
 .links {
@@ -14,11 +15,13 @@
     }
 }
 
-img {
-    max-width: 100%;
-    max-height: 500px;
-    overflow: auto;
+.img-underlay {
+    background-color: #feefec;
     border-radius: 6px;
+    padding: 24px;
+    max-height: 300px;
+    margin-bottom: 24px;
+
 }
 
 .container {
@@ -33,15 +36,22 @@ img {
     margin-bottom: 24px;
 }
 
-.img-size {
-    max-width: 700px;
-    max-height: 300px;
+.about-container {
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+    padding: 0px 50px;
 }
 
 .img-wrapper {
     right: 0;
-    margin-bottom:24px;
+    z-index: 1;
+    max-width: 700px;
+    max-height: 300px;
+    display: flex;
 }
 
 .resume-container {
@@ -49,7 +59,6 @@ img {
 }
 
 .text-wrapper {
-    /* position: absolute; */
     left: 0;
     flex: 1;
     margin-right: 24px;

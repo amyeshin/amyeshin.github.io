@@ -29,16 +29,17 @@ function App() {
                 </div>
             </Navbar>
 
-            <div id="about-me" className="container">
+            <div id="about-me" className="about-container">
                 <div className="text-wrapper">
-                    <h1> Hey, I'm Amy </h1>
-                    <p> I am an aspiring software engineer currently seeking a full
+                    <h1 style={{'font-size': '60px'}}> Hey, I'm Amy </h1>
+                    <p style={{'font-size': '24px'}}> I am an aspiring software engineer currently seeking a full
                     time position in NYC. I recently graduated from Stony Brook
-                    University with a B.S. in Computer Science. My most recent
-                    project is this personal website. I hope you enjoy! </p>
+                    University with a B.S. in Computer Science. </p>
                 </div>
-                <div className="img-wrapper">
-                    <img className="img-size" src={Me} alt=""/>
+                <div className="img-underlay">
+                    <div className="img-wrapper">
+                        <img src={Me} alt=""/>
+                    </div>
                 </div>
 
             </div>

@@ -36,8 +36,9 @@ iframe.border {
 }
 
 .media-wrapper {
-    text-align: -webkit-center;
+    justify-content: center;
 }
+
 @media screen and (max-width: 1370px) {
     .interests-wrapper {
         flex: 45%;
