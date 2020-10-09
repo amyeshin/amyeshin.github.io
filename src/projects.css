@@ -1,11 +1,42 @@
-.bullet-wrapper {
-    flex: 1;
-    left: 0;
+.project-container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.container.left {
+    flex:1;
+    left:0;
+    margin-right: 24px;
 }
 
 .project-img-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.img-underlay.c4me {
+    height: 200px;
+}
+
+.img-underlay.tab {
+    height: 250px;
+}
+
+.img-overlay.tab {
+    max-width: 200px;
+    height: 250px;
+}
+
+.img-overlay {
+    max-width: 450px;
+    height: 200px;
     right: 0;
-    margin-left: 24px;
+    z-index: 1;
+    display: flex;
+    box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
+    border-radius: 6px;
 }
 
 .tabguard-size {

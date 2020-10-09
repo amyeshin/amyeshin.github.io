@@ -12,18 +12,20 @@ import CheckIcon from '@material-ui/icons/Check';
 const useStyles = makeStyles({
   table: {
     minWidth: 650,
+    minHeight: 500,
   },
   table_container: {
-    borderRadius: 8,
-    // background: '#feefec',
-    // boxShadow: '5px 5px #d7ccc8',
+    borderRadius: 6,
     boxShadow: '0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2)',
-
-    marginBottom: '24px',
     },
-    // tableCell: {
-    //     color: '#3e2723',
-    // }
+  table_underlay: {
+      maxHeight: 500,
+      marginBottom: '48px',
+      padding: '24px',
+      background: '#feefec',
+      borderRadius: 6,
+
+  }
 });
 
 function createData(name, novice, proficient, expert) {
@@ -44,6 +46,7 @@ function SkillTable() {
   const classes = useStyles();
 
   return (
+      <div className={classes.table_underlay}>
     <TableContainer component={Paper} className={classes.table_container}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
@@ -68,6 +71,7 @@ function SkillTable() {
         </TableBody>
       </Table>
     </TableContainer>
+    </div>
   );
 }
 

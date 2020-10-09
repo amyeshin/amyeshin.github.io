@@ -81,7 +81,9 @@ function Interests() {
                     </div>
             </div>
             <div className="interests-wrapper right">
+
                 <h3> Hiking </h3>
+
                     <p>You'll either find me on the road looking for my next summit
                     or at Cold Spring Harbor Park jogging up and down the rocky terrain.
                     I recently went to Acadia National Park; however, it was quite

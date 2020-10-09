@@ -12,9 +12,9 @@ import Bread from './images/bread.jpg';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 400,
-    maxHeight: 500,
-    borderRadius:8,
+    maxWidth: 300,
+    maxHeight: 450,
+    borderRadius:6,
   },
 });
 
@@ -22,12 +22,13 @@ function Blog() {
   const classes = useStyles();
 
   return (
-      <div className="container">
-        <div className="bullet-wrapper">
+      <div className="project-container">
+        <div className="container left">
           <p> If you're wondering what I have been up to during quarantine,
               check out my blog. Here's one of my most recent posts on my
               experience tackling bread baking!</p>
         </div>
+        <div className="img-underlay">
         <div className="project-img-wrapper">
               <Card className={classes.root}>
                   <CardMedia>
@@ -44,6 +45,7 @@ function Blog() {
                   </Button>
                 </CardActions>
               </Card>
+        </div>
         </div>
       </div>
 

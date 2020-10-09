@@ -8,8 +8,8 @@ import C4ME from './images/c4me.png';
 function Projects(){
     return(
         <div>
-            <div className="container">
-                    <div className="bullet-wrapper">
+            <div className="project-container">
+                <div className="container left">
                     <h3>CollegeD</h3>
                         <ul>
                             <li>Spearheaded the frontend for a single-page
@@ -34,12 +34,16 @@ function Projects(){
                         </ul>
                     </div>
                     <div className="project-img-wrapper">
-                        <img className="c4me-size" src={C4ME} alt="" />
+                        <div className="img-underlay c4me">
+                            <div className="img-overlay">
+                                <img src={C4ME} alt="" />
+                            </div>
+                        </div>
                     </div>
-            </div>
+                </div>
 
-            <div className="container">
-                    <div className="bullet-wrapper">
+            <div className="project-container">
+                    <div className="container left">
                     <h3>Rating Predictor</h3>
 
                         <ul>
@@ -55,11 +59,15 @@ function Projects(){
                         </ul>
                     </div>
                     <div className="project-img-wrapper">
-                        <img className="predictor-size" src={RatingPredictor} alt="" />
+                        <div className="img-underlay c4me">
+                            <div className="img-overlay">
+                                <img src={RatingPredictor} alt="" />
+                            </div>
+                        </div>
                     </div>
             </div>
-            <div className="container">
-                    <div className="bullet-wrapper">
+            <div className="project-container">
+                    <div className="container left">
                     <h3>TabGuard</h3>
 
                         <ul>
@@ -74,7 +82,11 @@ function Projects(){
                         </ul>
                     </div>
                     <div className="project-img-wrapper">
-                        <img className="tabguard-size" src={TabGuard} alt="" />
+                    <div className="img-underlay tab">
+                    <div className="img-overlay tab">
+                        <img src={TabGuard} alt="" />
+                    </div>
+                    </div>
                     </div>
             </div>
         </div>

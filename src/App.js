@@ -36,7 +36,7 @@ function App() {
                     time position in NYC. I recently graduated from Stony Brook
                     University with a B.S. in Computer Science. </p>
                 </div>
-                <div className="img-underlay">
+                <div className="img-underlay hero">
                     <div className="img-wrapper">
                         <img src={Me} alt=""/>
                     </div>
