@@ -8,8 +8,8 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #bcaaa4;
-  color: #3e2723;
+  background-color: white;
+  color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 24px;
@@ -31,12 +31,12 @@ img {
     max-width: 100%;
     max-height: 500px;
     overflow: auto;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
-span, h1{
+/* span, h1{
     color: #3e2723;
-}
+} */
 
 h4 {
     font-weight: 700;

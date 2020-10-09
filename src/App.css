@@ -1,6 +1,5 @@
 .header-bar {
     display: flex;
-    background-color: #bcaaa4;
     padding: 0px 0px 0px 8px;
 }
 
@@ -19,7 +18,7 @@ img {
     max-width: 100%;
     max-height: 500px;
     overflow: auto;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .info-container {
@@ -49,11 +48,11 @@ img {
     margin: 24px;
     padding: 24px;
     z-index: 1;
-    border-radius: 8px;
-    background-color: #efebe9;
+    border-radius: 6px;
+    background-color: #feefec;
     max-width: 350px;
     max-height: auto;
-    box-shadow: 5px 5px #d7ccc8;
+    /* box-shadow: 5px 5px #d7ccc8; */
 }
 
 @media screen and (max-width: 900px) {

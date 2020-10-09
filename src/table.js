@@ -15,13 +15,13 @@ const useStyles = makeStyles({
   },
   table_container: {
     borderRadius: 8,
-    background: '#efebe9',
-    boxShadow: '5px 5px #d7ccc8',
+    background: '#feefec',
+    // boxShadow: '5px 5px #d7ccc8',
     marginBottom: '24px',
     },
-    tableCell: {
-        color: '#3e2723',
-    }
+    // tableCell: {
+    //     color: '#3e2723',
+    // }
 });
 
 function createData(name, novice, proficient, expert) {

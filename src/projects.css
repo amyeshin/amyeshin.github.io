@@ -1,7 +1,7 @@
 .project-container {
-    background-color: #efebe9;
-    box-shadow: 5px 5px #d7ccc8;
-    border-radius: 8px;
+    background-color: #feefec;
+    /* box-shadow: 5px 5px #d7ccc8; */
+    border-radius: 6px;
     padding: 24px;
     margin-bottom: 24px;
 }

@@ -1,5 +1,5 @@
 iframe.border {
-    border-radius: 8px;
+    border-radius: 6px;
     overflow: hidden;
     min-width: 200px;
     min-height: 280px;
@@ -19,9 +19,9 @@ iframe.border {
 }
 
 .interests-wrapper {
-    background-color: #efebe9;
-    box-shadow: 5px 5px #d7ccc8;
-    border-radius: 8px;
+    background-color: #feefec;
+    /* box-shadow: 5px 5px #d7ccc8; */
+    border-radius: 6px;
     padding: 24px;
     margin-right: 24px;
     flex: 22%;
