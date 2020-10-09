@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/amyeshin.github.io/precache-manifest.0bfcdc998be74102b278fb2b36ab1982.js"
+  "/amyeshin.github.io/precache-manifest.45da4c64e341ee6642f34b7732fa721d.js"
 );
 
 self.addEventListener('message', (event) => {

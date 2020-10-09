@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/amyeshin.github.io/static/css/main.ac895b5a.chunk.css",
-    "main.js": "/amyeshin.github.io/static/js/main.ec8d9e86.chunk.js",
-    "main.js.map": "/amyeshin.github.io/static/js/main.ec8d9e86.chunk.js.map",
+    "main.css": "/amyeshin.github.io/static/css/main.711b8ba5.chunk.css",
+    "main.js": "/amyeshin.github.io/static/js/main.f3a69c09.chunk.js",
+    "main.js.map": "/amyeshin.github.io/static/js/main.f3a69c09.chunk.js.map",
     "runtime-main.js": "/amyeshin.github.io/static/js/runtime-main.4198504b.js",
     "runtime-main.js.map": "/amyeshin.github.io/static/js/runtime-main.4198504b.js.map",
-    "static/js/2.6beb4de4.chunk.js": "/amyeshin.github.io/static/js/2.6beb4de4.chunk.js",
-    "static/js/2.6beb4de4.chunk.js.map": "/amyeshin.github.io/static/js/2.6beb4de4.chunk.js.map",
+    "static/js/2.3fa2312e.chunk.js": "/amyeshin.github.io/static/js/2.3fa2312e.chunk.js",
+    "static/js/2.3fa2312e.chunk.js.map": "/amyeshin.github.io/static/js/2.3fa2312e.chunk.js.map",
     "index.html": "/amyeshin.github.io/index.html",
-    "precache-manifest.0bfcdc998be74102b278fb2b36ab1982.js": "/amyeshin.github.io/precache-manifest.0bfcdc998be74102b278fb2b36ab1982.js",
+    "precache-manifest.45da4c64e341ee6642f34b7732fa721d.js": "/amyeshin.github.io/precache-manifest.45da4c64e341ee6642f34b7732fa721d.js",
     "service-worker.js": "/amyeshin.github.io/service-worker.js",
-    "static/css/main.ac895b5a.chunk.css.map": "/amyeshin.github.io/static/css/main.ac895b5a.chunk.css.map",
-    "static/js/2.6beb4de4.chunk.js.LICENSE.txt": "/amyeshin.github.io/static/js/2.6beb4de4.chunk.js.LICENSE.txt",
+    "static/css/main.711b8ba5.chunk.css.map": "/amyeshin.github.io/static/css/main.711b8ba5.chunk.css.map",
+    "static/js/2.3fa2312e.chunk.js.LICENSE.txt": "/amyeshin.github.io/static/js/2.3fa2312e.chunk.js.LICENSE.txt",
     "static/media/TabGuard.png": "/amyeshin.github.io/static/media/TabGuard.eef925ee.png",
     "static/media/bread.jpg": "/amyeshin.github.io/static/media/bread.8becc027.jpg",
     "static/media/c4me.png": "/amyeshin.github.io/static/media/c4me.0c74ddfb.png",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4198504b.js",
-    "static/js/2.6beb4de4.chunk.js",
-    "static/css/main.ac895b5a.chunk.css",
-    "static/js/main.ec8d9e86.chunk.js"
+    "static/js/2.3fa2312e.chunk.js",
+    "static/css/main.711b8ba5.chunk.css",
+    "static/js/main.f3a69c09.chunk.js"
   ]
 }
