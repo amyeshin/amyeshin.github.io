@@ -31,17 +31,17 @@ function App() {
 
             <div id="about-me" className="about-container">
                 <div className="text-wrapper">
-                    <h1 style={{'font-size': '60px'}}> Hey, I'm Amy </h1>
+                    <h1 style={{'font-size': '50px'}}> Hey, I'm Amy </h1>
                     <p style={{'font-size': '24px'}}> I am an aspiring software engineer currently seeking a full
                     time position in NYC. I recently graduated from Stony Brook
                     University with a B.S. in Computer Science. </p>
                 </div>
                 <div className="hero-img-wrapper">
-                <div className="img-underlay hero">
-                    <div className="img-wrapper">
-                        <img src={Me} alt=""/>
+                    <div className="img-underlay hero">
+                        <div className="img-wrapper">
+                            <img src={Me} alt=""/>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
 
