@@ -93,7 +93,7 @@ function Interests() {
                     <Carousel>
                         <Carousel.Item className="carousel-size">
                         <img
-                          style={{'height':"400px"}}
+                          style={{'height':"300px"}}
                           className="d-block w-100"
                           src={Jordan}
                           alt="Second slide"
@@ -105,7 +105,7 @@ function Interests() {
                         </Carousel.Item>
                         <Carousel.Item className="carousel-size">
                         <img
-                          style={{'height':"400px"}}
+                          style={{'height':"300px"}}
                           className="d-block w-100"
                           src={Desert}
                           alt="Third slide"
@@ -118,7 +118,7 @@ function Interests() {
                         </Carousel.Item>
                         <Carousel.Item className="carousel-size">
                         <img
-                          style={{'height':"400px"}}
+                          style={{'height':"300px"}}
                           className="d-block w-100"
                           src={Precipice}
                           alt="Fourth slide"
