@@ -38,19 +38,18 @@ function Blog() {
         </div>
 
         <div className="project-img-wrapper">
-        <div className={classes.blog_underlay}>
-            <Button onClick={() => window.open('https://amyeshin.wixsite.com/blog/post/hopping-on-the-bread-baking-train')}>
-              <Card className={classes.root}>
-                  <CardMedia>
-                    <img className={classes.img_border} src={Bread} alt="Focaccia Bread"/>
-                  </CardMedia>
-                      <p>Hopping on the Bread Baking Train</p>
-              </Card>
-            </Button>
-        </div>
+            <div className={classes.blog_underlay}>
+                <Button onClick={() => window.open('https://amyeshin.wixsite.com/blog/post/hopping-on-the-bread-baking-train')}>
+                  <Card className={classes.root}>
+                      <CardMedia>
+                        <img className={classes.img_border} src={Bread} alt="Focaccia Bread"/>
+                      </CardMedia>
+                          <p>Hopping on the Bread Baking Train</p>
+                  </Card>
+                </Button>
+            </div>
         </div>
       </div>
-
   );
 }
 
