@@ -46,31 +46,32 @@ function SkillTable() {
   const classes = useStyles();
 
   return (
-      <div className={classes.table_underlay}>
-    <TableContainer component={Paper} className={classes.table_container}>
-      <Table className={classes.table} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell></TableCell>
-            <TableCell align="center"  className={classes.tableCell}>Novice</TableCell>
-            <TableCell align="center"  className={classes.tableCell}>Proficient</TableCell>
-            <TableCell align="center"  className={classes.tableCell}>Expert</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow key={row.name}>
-              <TableCell component="th" scope="row"  className={classes.tableCell}>
-                {row.name}
-              </TableCell>
-              <TableCell align="center"  className={classes.tableCell}>{row.novice}</TableCell>
-              <TableCell align="center"  className={classes.tableCell}>{row.proficient}</TableCell>
-              <TableCell align="center"  className={classes.tableCell}>{row.expert}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+    <div className={classes.table_underlay}>
+        <TableContainer component={Paper} className={classes.table_container}>
+            <Table className={classes.table} aria-label="simple table">
+                <TableHead>
+                    <TableRow>
+                        <TableCell></TableCell>
+                        <TableCell align="center"  className={classes.tableCell}>Novice</TableCell>
+                        <TableCell align="center"  className={classes.tableCell}>Proficient</TableCell>
+                        <TableCell align="center"  className={classes.tableCell}>Expert</TableCell>
+                    </TableRow>
+                </TableHead>
+
+                <TableBody>
+                    {rows.map((row) => (
+                        <TableRow key={row.name}>
+                            <TableCell component="th" scope="row"  className={classes.tableCell}>
+                                {row.name}
+                            </TableCell>
+                            <TableCell align="center"  className={classes.tableCell}>{row.novice}</TableCell>
+                            <TableCell align="center"  className={classes.tableCell}>{row.proficient}</TableCell>
+                            <TableCell align="center"  className={classes.tableCell}>{row.expert}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+        </TableContainer>
     </div>
   );
 }
