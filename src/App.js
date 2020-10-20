@@ -61,7 +61,13 @@ function App() {
                     </div>
                     <div className="center-container">
                         <Link to="/files/Amy Shin Resume.pdf" target="_blank" download>
-                            <Button variant="contained"> Download CV </Button>
+                            <div className="button-wrapper">
+                            <Button
+                                variant="contained"
+                            >
+                                Download CV
+                            </Button>
+                            </div>
                         </Link>
                     </div>
                 </div>

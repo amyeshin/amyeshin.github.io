@@ -19,8 +19,8 @@ const useStyles = makeStyles({
     boxShadow: '0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2)',
     },
   table_underlay: {
-      maxHeight: 500,
-      marginBottom: '48px',
+      maxHeight: 606,
+      marginBottom: '24px',
       padding: '24px',
       background: '#feefec',
       borderRadius: 6,
