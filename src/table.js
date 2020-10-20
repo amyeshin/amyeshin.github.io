@@ -38,8 +38,10 @@ const rows = [
   createData('TypeScript', <CheckIcon/>, null, null),
   createData('HTML', null, null, <CheckIcon/>),
   createData('CSS', null, null, <CheckIcon/>),
+  createData('SQL', null, <CheckIcon/>, null),
   createData('Java', null, <CheckIcon/>, null),
   createData('C', null, <CheckIcon/>, null),
+  createData('Git', null, <CheckIcon/>, null),
 ];
 
 function SkillTable() {
