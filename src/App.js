@@ -32,9 +32,10 @@ function App() {
                 <div id="about-me" className="about-container">
                     <div className="text-wrapper">
                         <h1 style={{'font-size': '50px'}}> Hi, I'm Amy </h1>
-                        <p style={{'font-size': '24px'}}> I am an aspiring software engineer currently seeking a full
+                        <p style={{'font-size': '24px'}}> I am an aspiring Software Engineer seeking a full
                         time position in NYC. I recently graduated from Stony Brook
-                        University with a B.S. in Computer Science. </p>
+                        University with a B.S. in Computer Science. Currently brewing mead in my
+                        garage and attempting to propagate 9 succulent leaves. </p>
                     </div>
                     <div className="hero-img-wrapper">
                         <div className="img-underlay hero">
